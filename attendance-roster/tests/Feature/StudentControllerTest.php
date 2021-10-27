@@ -56,7 +56,7 @@ class StudentControllerTest extends TestCase
             }
         }';
         
-        // fake student id
+        // valid student id in database
         $response = $this->put('api/student/1651092040799', json_decode($presentContent, true));
         $response
             ->assertStatus(200)
