@@ -47,7 +47,11 @@ Vue.js, Laravel, MySQL, phpunit
 ```
 
 ### Run the Vue Front End
-7. run a hot deploy
+7. for first-time use, ensure vue is installed
+```
+    npm install
+```
+8. run a hot deploy
 ```
     npm run hot
 ```
