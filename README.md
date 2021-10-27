@@ -2,7 +2,7 @@
 Attendance roster that lets you set students as present/absent. Roster information is stored persistently in a MySQL database.
 
 ## Tech Stack
-Vue.js, Laravel, MySQL
+Vue.js, Laravel, MySQL, phpunit
 
 ## Setup
 ### Setting Up the Database
