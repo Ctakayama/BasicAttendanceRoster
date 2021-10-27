@@ -7,6 +7,9 @@ Vue.js, Laravel, MySQL, phpunit
 ## Setup
 ### Setting Up the Database
 1. Open MySQL
+```
+    mysql --local-infile=1 -u root -p
+```
 2. In MySQL, Create a database:
 ```
     CREATE DATABASE attendance_DB;
@@ -67,4 +70,4 @@ Vue.js, Laravel, MySQL, phpunit
 ```
     php artisan test --verbose
 ```
-
+5. Note: feature tests only pass if laravel, vue, & the MySQL db is running
